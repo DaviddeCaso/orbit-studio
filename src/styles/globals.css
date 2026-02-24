@@ -192,13 +192,12 @@ nav a {
 }
 
 .services-content {
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 .section-header {
-  max-width: 620px;
-  margin-bottom: 140px;
-  margin-top: 120px;
+  max-width: 600px;
+  margin: 80px 0 160px 8%;
 }
 
 .section-label {
@@ -220,7 +219,7 @@ nav a {
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
+  gap: 80px;
 }
 
 .service-card h3 {
@@ -244,5 +243,6 @@ nav a {
 
   .section-header {
     margin-bottom: 70px;
+    margin-left: 0;
   }
 }
