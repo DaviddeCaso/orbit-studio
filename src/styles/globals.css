@@ -18,6 +18,7 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 main {
@@ -67,15 +68,27 @@ nav a {
 /* HERO */
 
 .hero {
+  position: relative;
   min-height: 92vh;
   display: flex;
-  align-items: center;
-  padding: 120px 0 80px;
-  background: #ffffff;
+  align-items: flex-start;
+  padding: 100px 0 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .hero-content {
-  max-width: 760px;
+  position: relative;
+  max-width: 720px;
+  margin-left: 60px;
 }
 
 .hero-badge {
@@ -106,6 +119,17 @@ nav a {
 .hero-buttons {
   display: flex;
   gap: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 120px 0 60px;
+  }
+
+  .hero-content {
+    margin-left: 0;
+    padding: 0 20px;
+  }
 }
 
 /* BUTTONS */

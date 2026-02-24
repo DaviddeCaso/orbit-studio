@@ -1,6 +1,11 @@
+import heroBg from "../assets/hero-bg.jpg";
+
 function Hero() {
   return (
-    <section id="hero" className="hero">
+    <section
+    id="hero"
+    className="hero"
+    style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="container hero-content">
         <span className="hero-badge">
           Digital Strategy · UX/UI · Development
