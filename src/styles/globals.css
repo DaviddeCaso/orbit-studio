@@ -11,8 +11,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-section {
-  padding: 100px 20px;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 .container {
@@ -187,17 +188,18 @@ nav a {
 /* SERVICES */
 
 .services {
-  padding: 140px 0;
+  padding: 60px 0;
   background: #ffffff;
 }
 
 .services-content {
   max-width: 1100px;
+  margin-bottom: 200px;
 }
 
 .section-header {
   max-width: 600px;
-  margin: 80px 0 160px 8%;
+  margin: 100px 0 100px 8%;
 }
 
 .section-label {
