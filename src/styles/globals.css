@@ -273,16 +273,16 @@ nav a {
 
 .process-step {
   position: relative;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .process-step::before {
   content: "";
   position: absolute;
-  top: 85px;
-  left: 0;
-  right: 30px;
-  height: 2px;
+  top: 100px;
+  left: 5px;
+  width: 65%;
+  height: 1px;
   background: #e5e7eb;
 }
 
@@ -312,7 +312,7 @@ nav a {
     gap: 50px;
   }
 
-  .process-steps::before {
+  .process-step::before {
     display: none;
   }
 }
