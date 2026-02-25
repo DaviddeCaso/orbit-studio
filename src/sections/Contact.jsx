@@ -1,24 +1,35 @@
-function Contact() {
+export default function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="container contact-content">
+
         <div className="contact-header">
-          <span className="section-label">Get in Touch</span>
-          <h2>Let’s build something impactful together.</h2>
+          <span className="contact-label">Start a Project</span>
+
+          <h2>
+            Let’s build something <br />
+            meaningful together.
+          </h2>
+
           <p>
-            Whether you’re launching a new product or optimizing an existing
-            platform, we’d love to explore how we can help.
+            Interested in collaborating or discussing your next digital
+            product? We partner with ambitious teams ready to scale.
           </p>
+
+          <div className="contact-cta">
+            <a href="mailto:hello@orbitstudio.dev" className="btn-primary">
+              Get in Touch
+            </a>
+          </div>
+
+          <div className="contact-email">
+            <a href="mailto:hello@orbitstudio.dev">
+              hello@orbitstudio.dev
+            </a>
+          </div>
         </div>
 
-        <div className="contact-cta">
-          <a href="mailto:hello@orbitstudio.com" className="btn-primary">
-            hello@orbitstudio.com
-          </a>
-        </div>
       </div>
     </section>
   );
 }
-
-export default Contact;

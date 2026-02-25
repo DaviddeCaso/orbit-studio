@@ -1,31 +1,21 @@
-import heroBg from "../assets/hero-bg.jpg";
-
 function Hero() {
   return (
-    <section
-    id="hero"
-    className="hero"
-    style={{ backgroundImage: `url(${heroBg})` }}>
-      <div className="container hero-content">
-        <span className="hero-badge">
-          Digital Strategy · UX/UI · Development
-        </span>
+    <section id="hero" className="hero">
+      <div className="hero-wrapper">
+        <div className="hero-content">
+          <h1>
+            Designing<br />
+            digital systems<br />
+            <span>that make sense.</span>
+          </h1>
 
-        <h1>
-          We build digital experiences that drive measurable business growth.
-        </h1>
+          <p>
+            Strategic design and development focused on clarity,
+            structure and long-term scalability.
+          </p>
 
-        <p>
-          Orbit Studio partners with ambitious brands to design, develop and
-          scale high-performance digital products focused on long-term impact.
-        </p>
-
-        <div className="hero-buttons">
-          <a href="#projects" className="btn-primary">
-            View Projects
-          </a>
-          <a href="#contact" className="btn-secondary">
-            Let’s Talk
+          <a href="#projects" className="hero-link">
+            View Selected Work →
           </a>
         </div>
       </div>

@@ -7,7 +7,9 @@ function Projects() {
       <div className="container projects-content">
         <div className="section-header">
           <span className="section-label">Selected Work</span>
-          <h2>Digital solutions designed with purpose and precision.</h2>
+          <h2>
+            Digital solutions designed with purpose and precision.
+          </h2>
         </div>
 
         <div className="projects-grid">

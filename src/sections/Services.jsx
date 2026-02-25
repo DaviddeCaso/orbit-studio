@@ -3,43 +3,46 @@ function Services() {
     <section id="services" className="services">
       <div className="container services-content">
         <div className="section-header">
-          <span className="section-label">Our Services</span>
-          <h2>Strategic digital solutions built for long-term impact.</h2>
+          <span className="section-label">Services</span>
+          <h2>
+            Strategic digital services designed to bring clarity and structure
+            to complex systems.
+          </h2>
         </div>
 
         <div className="services-grid">
-    <div className="service-card">
-      <h3>Digital Strategy</h3>
-      <p>
-        We align business objectives with digital opportunities to build
-        clear, scalable roadmaps focused on measurable growth.
-      </p>
-    </div>
+          <div className="service-card">
+            <h3>Digital Strategy</h3>
+            <p>
+              Defining long-term product direction through research,
+              positioning and system thinking.
+            </p>
+          </div>
 
-    <div className="service-card">
-      <h3>UX & Product Design</h3>
-      <p>
-        Human-centered design that balances usability, aesthetics and
-        performance to create meaningful user experiences.
-      </p>
-    </div>
+          <div className="service-card">
+            <h3>UX / UI Design</h3>
+            <p>
+              Designing interfaces focused on usability, clarity and
+              performance.
+            </p>
+          </div>
 
-    <div className="service-card">
-      <h3>Development & Optimization</h3>
-      <p>
-        High-performance development focused on scalability, clean
-       architecture and continuous improvement.
-      </p>
-    </div>
+          <div className="service-card">
+            <h3>Frontend Development</h3>
+            <p>
+              Building scalable and maintainable systems with modern
+              technologies.
+            </p>
+          </div>
 
-    <div className="service-card">
-      <h3>E-commerce & Platforms</h3>
-      <p>
-        Custom online stores and scalable platforms built to increase
-        conversions and support long-term growth.
-      </p>
-    </div>
-  </div>
+          <div className="service-card">
+            <h3>Performance Optimization</h3>
+            <p>
+              Improving speed, accessibility and technical structure to ensure
+              long-term growth.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
